@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/br_about"
+    android:paddingLeft="@dimen/paddingLeft_About_Activity"
+    android:paddingRight="@dimen/paddingRight_About_Activity"
+    style="@style/AboutUs"
+    tools:context="com.example.rs.project_result_mob.Fragment_About_Us">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello" />
+
+        <TextView
+            android:id="@+id/txt_userName_ActivityAboutUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameUserAboutUs" />
+    </LinearLayout>
+    <!-- NOTE: Avatar -->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/size_Image_ActivityAboutUs"
+            android:layout_height="@dimen/size_Image_ActivityAboutUs"
+            android:src="@drawable/default_user" />
+    </LinearLayout>
+    <!--Thanks for us... -->
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thankForUsed" />
+    <!-- RATE -->
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rate" />
+    <!-- Star -->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/size_star_icon"
+            android:layout_height="@dimen/size_star_icon"
+            android:src="@mipmap/ic_star_rate" />
+
+        <ImageView
+            android:layout_width="@dimen/size_star_icon"
+            android:layout_height="@dimen/size_star_icon"
+            android:src="@mipmap/ic_star_rate" />
+
+        <ImageView
+            android:layout_width="@dimen/size_star_icon"
+            android:layout_height="@dimen/size_star_icon"
+            android:src="@mipmap/ic_star_rate" />
+
+        <ImageView
+            android:layout_width="@dimen/size_star_icon"
+            android:layout_height="@dimen/size_star_icon"
+            android:src="@mipmap/ic_star_rate" />
+
+        <ImageView
+            android:layout_width="@dimen/size_star_icon"
+            android:layout_height="@dimen/size_star_icon"
+            android:src="@mipmap/ic_star_rate" />
+    </LinearLayout>
+    <!-- About Us -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/teamus" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name5" />
+        </LinearLayout>
+
+        <!-- NOTE: Company -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:text="@string/company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
