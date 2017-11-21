@@ -60,8 +60,8 @@
     <string name="btn_logout">Log out</string>
     <string name="hello">Hello,</string>
     <string name="nameUserAboutUs">Nguyen Tam</string>
-    <string name="thankForUsed">!!! Thanks for used us application !!!</string>
-    <string name="rate">RATE FOR US</string>
+    <string name="thankForUsed">Thanks for used us application</string>
+    <string name="rate">!!! RATE FOR US !!!</string>
     <string name="teamus">Team us:</string>
     <string name="name1">Vo Thi Kim Nguyet(Leader)</string>
     <string name="name2">Nguyen Duc Thanh Tam</string>

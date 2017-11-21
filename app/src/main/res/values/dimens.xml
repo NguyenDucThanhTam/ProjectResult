@@ -56,5 +56,16 @@
     <dimen name="size_star_icon">50dp</dimen>
     <dimen name="paddingLeft_About_Activity">20dp</dimen>
     <dimen name="paddingRight_About_Activity">20dp</dimen>
+    <dimen name="height_listView_Activity_Check_List">30dp</dimen>
+
+    <!-- About US Activity -->
+    <dimen name="size_txt_hello">20dp</dimen>
+    <dimen name="marginTop_hl_Activity_About">10dp</dimen>
+    <dimen name="height_avt_activity_about_us">144dp</dimen>
+    <dimen name="marginTop_avt_activity_about_us">20dp</dimen>
+    <dimen name="marginBottom_avt_activity_about_us">30dp</dimen>
+    <dimen name="marginBottom_thnks_ActivityAboutUs">20dp</dimen>
+    <dimen name="marginTop_nameTeam_activityAboutUs">10dp</dimen>
+    <dimen name="marginTop_nameCompany_activityAboutUs">10dp</dimen>
 
 </resources>

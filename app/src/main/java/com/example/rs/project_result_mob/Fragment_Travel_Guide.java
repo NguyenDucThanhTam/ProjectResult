@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class Fragment_Travel_Guide extends Fragment {
 
@@ -15,5 +18,23 @@ public class Fragment_Travel_Guide extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.activity_fragment__travel__guide, container, false);
+    }
+
+    WebView webView;
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        webView = (WebView) getActivity().findViewById(R.id.webViewTravelGuide);
+
+        WebSettings webSettings = webView.getSettings();
+
+        webSettings.setJavaScriptEnabled(true);
+
+        webView.setWebViewClient(new WebViewClient());
+
+        webView.loadUrl("https://www.tripadvisor.com/Attractions-g293925-Activities-Ho_Chi_Minh_City.html");
+
+
     }
 }

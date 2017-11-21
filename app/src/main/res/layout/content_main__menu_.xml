@@ -15,7 +15,6 @@
         android:layout_height="match_parent">
 
         <include layout="@layout/activity_fragment__home"/>
-
     </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
